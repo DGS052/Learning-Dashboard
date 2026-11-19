@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'Cascadia Code', 'Fira Code', monospace;
+  --color-canvas-dark: #090D16;
+  --color-surface-dark: #111827;
+  --color-surface-elevated: #182032;
+  --color-border-dark: #1F2937;
+}
+
